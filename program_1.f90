@@ -2,9 +2,10 @@
 
 program prova
 implicit none
-integer :: n
+integer :: n,m
 
-read(5,*)n
+read(5,*)n,m
 print *, n
+print *,m
 
 end program prova 
